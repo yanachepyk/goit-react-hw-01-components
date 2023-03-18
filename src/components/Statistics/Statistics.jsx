@@ -7,7 +7,7 @@ const statisticItemPalette = [
   '#a33cf3',
   '#df526c',
   '#1eb9c3',
-  '#c445c9'
+  '#c445c9',
 ];
 
 const Statistics = ({ title, stats }) => {

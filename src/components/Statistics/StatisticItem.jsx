@@ -13,7 +13,7 @@ const StatisticItem = ({ label, percentage, background }) => {
 StatisticItem.propTypes = {
   label: PropTypes.string.isRequired,
   percentage: PropTypes.number.isRequired,
-  background: PropTypes.string
+  background: PropTypes.string,
 };
 
 export default StatisticItem;

@@ -8,7 +8,7 @@ export const Item = styled.li`
   flex: 1;
   min-width: 80px;
   align-items: center;
-  background-color: ${(props) => props.background}; 
+  background-color: ${props => props.background};
 `;
 
 export const Label = styled.span`
